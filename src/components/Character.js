@@ -1,20 +1,7 @@
 import React from "react";
 
 const Character = (props) => {
-  const {
-    __id,
-    height,
-    race,
-    gender,
-    birth,
-    spouse,
-    death,
-    realm,
-    hair,
-    name,
-    wikiUrl,
-    imgUrl,
-  } = props;
+  const { race, birth, spouse, death, realm, name, imgUrl } = props;
   return (
     <div data-test="component-character">
       <h1 data-test="char-name">{name}</h1>
